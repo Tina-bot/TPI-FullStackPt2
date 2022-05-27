@@ -25,7 +25,6 @@ h1 {
     font-size: 2em;
     color: #fff;
     padding: 10px;
-
 }
 
 h2 {
@@ -39,7 +38,6 @@ h2 {
     margin: auto;
     white-space: nowrap;
     padding-bottom: 13px;
-
     color: #080808;
     -webkit-transition: all 0.4s ease 0s;
     -o-transition: all 0.4s ease 0s;
@@ -88,7 +86,6 @@ main {
     padding-top: 25px;
 }
 
-
 button {
     background-color: #4CAF50;
     padding: 10px;
@@ -108,7 +105,6 @@ button a {
 
 button:hover {
     background-color: greenyellow;
-
 }
 
 nav {
@@ -167,7 +163,6 @@ nav .nav-wrapper .nav-title {
     color: beige;
     font-family: 'Lobster', cursive;
     padding: 10px;
-
 }
 
 nav .nav-wrapper .nav-list a:hover:after {
@@ -186,7 +181,6 @@ nav .nav-wrapper .nav-list a:hover:after {
 .nav-title-home h1 {
     color: #dfdfdfcb;
     font-weight: bold;
-
 }
 
 .header-page-title {
@@ -199,15 +193,6 @@ nav .nav-wrapper .nav-list a:hover:after {
     align-content: center;
     justify-content: center;
     align-items: center;
-
-    /*     background: rgba(255, 255, 255, 0.25);
-    box-shadow: 0 8px 32px 0 rgb(31 38 135 / 37%);
-    backdrop-filter: blur(4px);
-    -webkit-backdrop-filter: blur(4px);
-    border-radius: 90px;
-    /* border: 1px solid rgba(255, 255, 255, 0.18);
-    padding: 100px;
-    */
 }
 
 .header-page-title h2 {
@@ -215,7 +200,6 @@ nav .nav-wrapper .nav-list a:hover:after {
     color: #fff;
     padding: 10px;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.514);
-
 }
 
 
@@ -984,6 +968,7 @@ footer {
     justify-content: center;
     margin: auto;
     width: 100%;
+    max-width: 1500px;
 }
 
 .cards-container .card {
