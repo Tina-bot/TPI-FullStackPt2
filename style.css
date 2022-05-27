@@ -678,10 +678,9 @@ nav .nav-wrapper .nav-list a:hover:after {
     flex-direction: column;
     align-items: center;
     font-size: 1em;
-    background-image: url("img/2.png");
+    background-image: url("/img/Pizza\ sharing-bro.svg");
     background-repeat: no-repeat;
     background-position: right bottom;
-
 
 }
 
@@ -698,10 +697,9 @@ form {
     margin: 20px;
     background-color: rgba(204, 204, 204, 0.356);
     border-radius: 10px;
-    background: rgba(210, 201, 201, 0.25);
-    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    background: #e9ecef87;
+    box-shadow: 0 6px 13px 0 #4caf50;
     backdrop-filter: blur(4px);
-    -webkit-backdrop-filter: blur(4px);
     border-radius: 10px;
     border: 1px solid rgba(255, 255, 255, 0.18);
 }
@@ -955,9 +953,9 @@ footer {
 }
 
 .about-me img {
-    width: 300px;
+    padding-top: 10px;
+    width: 250px;
     margin: 10px;
-
 }
 
 /* Recipes.html */
