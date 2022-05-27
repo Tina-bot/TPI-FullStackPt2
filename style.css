@@ -894,9 +894,9 @@ fieldset label, fieldset .radio-group label {
 /* end Register.html */
 
 footer {
-    background-color: #607D8B;
+    background-color: #212529;
     padding: 10px;
-    color: beige;
+    color: white;
     font-size: 15px;
     text-align: center;
     margin-top: auto;
