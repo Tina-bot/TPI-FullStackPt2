@@ -186,13 +186,12 @@ nav .nav-wrapper .nav-list a:hover:after {
 .header-page-title {
     width: 50%;
     position: absolute;
-    top: 200px;
+    top: 402px;
+    left: 100px;
     color: #dfdfdfcb;
     display: flex;
     flex-direction: column;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .header-page-title h2 {
@@ -212,7 +211,7 @@ nav .nav-wrapper .nav-list a:hover:after {
     }
 
     .header-page-title {
-        width: 100%;
+        width: 70%;
     }
 
     .header-page-title p {
@@ -292,8 +291,8 @@ nav .nav-wrapper .nav-list a:hover:after {
 }
 
 .main-img img {
-    width: 500px;
-    margin: 50px;
+    width: 537px;
+    padding: 13px;
 }
 
 @media screen and (max-width: 600px) {
@@ -434,6 +433,7 @@ nav .nav-wrapper .nav-list a:hover:after {
     background-size: cover;
     position: relative;
     z-index: -1;
+    border-radius: 0 0 85% 85% / 30%;
 
 }
 
@@ -514,6 +514,59 @@ nav .nav-wrapper .nav-list a:hover:after {
 .product img {
     width: 100%;
 }
+
+.sponsors{
+    background-color: #21252927;
+    padding: 40px;
+}
+
+
+
+
+.ribbon {
+    position: absolute;
+    right: -5px; top: -5px;
+    z-index: 1;
+    overflow: hidden;
+    width: 85px; height: 85px;
+    text-align: right;
+  }
+  .ribbon span {
+    font-size: 15px;
+    font-weight: bold;
+    color: #FFF;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 25px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    width: 106px;
+    display: block;
+    background: #79A70A;
+    background: linear-gradient(#9BC90D 0%, #4CAF50 100%);
+    box-shadow: 0 3px 10px -5px rgb(0 0 0);
+    position: absolute;
+    top: 18px;
+    right: -23px;
+  }
+  .ribbon span::before {
+    content: "";
+    position: absolute; left: 0px; top: 100%;
+    z-index: -1;
+    border-left: 3px solid #4CAF50;
+    border-right: 3px solid transparent;
+    border-bottom: 3px solid transparent;
+    border-top: 3px solid #4CAF50;
+  }
+  .ribbon span::after {
+    content: "";
+    position: absolute; right: 0px; top: 100%;
+    z-index: -1;
+    border-left: 3px solid transparent;
+    border-right: 3px solid #4CAF50;
+    border-bottom: 3px solid transparent;
+    border-top: 3px solid #4CAF50;
+  }
 
 /*dividers*/
 .wrapper {
@@ -651,7 +704,7 @@ nav .nav-wrapper .nav-list a:hover:after {
 
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
     .main-mapas-sucursales {
         display: flex;
         margin: auto;
