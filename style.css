@@ -222,9 +222,7 @@ nav .nav-wrapper .nav-list a:hover:after {
         width: -webkit-fill-available;
 
     }
-
 }
-
 
 .about-sec {
     max-width: 1200px;
@@ -300,8 +298,6 @@ nav .nav-wrapper .nav-list a:hover:after {
         width: 100%;
         margin: 0;
     }
-
-
 }
 
 
@@ -319,7 +315,6 @@ nav .nav-wrapper .nav-list a:hover:after {
 }
 
 .main-description {
-
     font-size: 1em;
     color: #000;
     padding: 30px;
@@ -342,7 +337,6 @@ nav .nav-wrapper .nav-list a:hover:after {
     }
 }
 
-
 .main-description table {
     width: 100%;
     border-collapse: collapse;
@@ -356,11 +350,9 @@ nav .nav-wrapper .nav-list a:hover:after {
 }
 
 .main-description th {
-
     background-color: #4CAF50;
     padding: 10px;
     text-align: center;
-
 }
 
 .main-description table, th, td {
@@ -384,7 +376,6 @@ nav .nav-wrapper .nav-list a:hover:after {
     text-decoration: none;
     color: #fff;
     font-size: 1em;
-
 }
 
 .main-content .main-recipes-bttn button {
@@ -405,14 +396,12 @@ nav .nav-wrapper .nav-list a:hover:after {
     align-content: center;
     justify-content: flex-start;
     flex-wrap: wrap;
-
 }
 
 .header-page-image img {
     margin: 0;
     border: 6px solid #abff2e;
     border-radius: 6px;
-
 }
 
 .header-page-text {
@@ -434,7 +423,6 @@ nav .nav-wrapper .nav-list a:hover:after {
     position: relative;
     z-index: -1;
     border-radius: 0 0 85% 85% / 30%;
-
 }
 
 .header-page-hero-text {
@@ -444,7 +432,6 @@ nav .nav-wrapper .nav-list a:hover:after {
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-
 }
 
 ::selection {
@@ -464,7 +451,6 @@ nav .nav-wrapper .nav-list a:hover:after {
 ::-webkit-scrollbar-thumb {
     background-color: #4CAF50;
 }
-
 
 #carrusel {
     float: left;
@@ -515,23 +501,23 @@ nav .nav-wrapper .nav-list a:hover:after {
     width: 100%;
 }
 
-.sponsors{
+.sponsors {
     background-color: #21252927;
     padding: 40px;
 }
 
-
-
-
 .ribbon {
     position: absolute;
-    right: -5px; top: -5px;
+    right: -5px;
+    top: -5px;
     z-index: 1;
     overflow: hidden;
-    width: 85px; height: 85px;
+    width: 85px;
+    height: 85px;
     text-align: right;
-  }
-  .ribbon span {
+}
+
+.ribbon span {
     font-size: 15px;
     font-weight: bold;
     color: #FFF;
@@ -548,25 +534,31 @@ nav .nav-wrapper .nav-list a:hover:after {
     position: absolute;
     top: 18px;
     right: -23px;
-  }
-  .ribbon span::before {
+}
+
+.ribbon span::before {
     content: "";
-    position: absolute; left: 0px; top: 100%;
+    position: absolute;
+    left: 0px;
+    top: 100%;
     z-index: -1;
     border-left: 3px solid #4CAF50;
     border-right: 3px solid transparent;
     border-bottom: 3px solid transparent;
     border-top: 3px solid #4CAF50;
-  }
-  .ribbon span::after {
+}
+
+.ribbon span::after {
     content: "";
-    position: absolute; right: 0px; top: 100%;
+    position: absolute;
+    right: 0px;
+    top: 100%;
     z-index: -1;
     border-left: 3px solid transparent;
     border-right: 3px solid #4CAF50;
     border-bottom: 3px solid transparent;
     border-top: 3px solid #4CAF50;
-  }
+}
 
 /*dividers*/
 .wrapper {
@@ -608,19 +600,21 @@ nav .nav-wrapper .nav-list a:hover:after {
 .main-sucursales {
     padding: 20px;
     margin: 5px;
-    width: 600px;
+    width: 100%;
     margin: auto;
-    background: rgba(255, 255, 255, 0.25);
-    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-    backdrop-filter: blur(4px);
-    -webkit-backdrop-filter: blur(4px);
-    border-radius: 10px;
-    border: 1px solid rgba(255, 255, 255, 0.18);
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: nowrap;
+    gap: 2.5em;
 }
 
 .main-sucursales li {
     margin: 20px;
-    list-style: square;
+    list-style: none;
+    display: flex;
 }
 
 .main-sucursales li a {
@@ -632,6 +626,11 @@ nav .nav-wrapper .nav-list a:hover:after {
     justify-content: center;
     margin: auto;
     padding-top: 50px;
+    width: 80%;
+}
+
+.main-mapas-sucursales iframe {
+    border: 1px solid #4CAF50 !important;
 }
 
 .footer .box-container {
@@ -669,9 +668,6 @@ nav .nav-wrapper .nav-list a:hover:after {
     font-size: 1.2rem;
     color: #212529;
 }
-
-
-
 
 @media screen and (min-width: 768px) {
     .main-mapas-sucursales {
@@ -718,9 +714,6 @@ nav .nav-wrapper .nav-list a:hover:after {
     }
 
 }
-
-
-
 
 
 /* Register.html */
@@ -777,15 +770,12 @@ form input[type="number"] {
     font-family: 'Poppins', sans-serif;
     font-size: 1em;
 
-
-
 }
 
 form label {
     margin-bottom: 10px;
     font-size: 15px;
     font-size: 1em;
-
 
 }
 
@@ -890,7 +880,6 @@ fieldset {
     border-radius: 5px;
     padding: 20px;
     margin-top: 20px;
-
 }
 
 fieldset legend {
@@ -931,7 +920,6 @@ fieldset select option {
 
 
 fieldset label, fieldset .radio-group label {
-
     font-size: 15px;
     margin-bottom: 10px;
 }
@@ -945,7 +933,6 @@ fieldset label, fieldset .radio-group label {
 }
 
 /* end Register.html */
-
 footer {
     background-color: #212529;
     padding: 10px;
@@ -983,7 +970,6 @@ footer {
         align-items: center;
     }
 
-
 }
 
 @media screen and (max-width: 800px) {
@@ -1002,7 +988,6 @@ footer {
     font-size: 1.2em;
     text-align: center;
     width: 570px;
-
 }
 
 .about-me img {
@@ -1028,7 +1013,6 @@ footer {
     border-radius: 10px;
     background-color: #fff;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-
 }
 
 .cards-container .card img {
@@ -1039,7 +1023,6 @@ footer {
 
 .cards-container .card img:hover {
     cursor: pointer;
-
 }
 
 .cards-container .card .card-title {
@@ -1065,7 +1048,6 @@ footer {
     margin-bottom: 0px;
     margin-top: auto;
     font-size: 15px;
-
 }
 
 .cards-container .card .card-button {
@@ -1075,7 +1057,6 @@ footer {
     padding: 10px;
     margin: 10px;
     margin-top: auto;
-
 }
 
 .cards-container .card .card-button a {
@@ -1109,7 +1090,6 @@ footer {
 }
 
 
-
 /* Recipes1 */
 
 article .mb-4 #post-title {
@@ -1134,7 +1114,6 @@ article .mb-4 a {
     .mb-4 {
         width: auto;
     }
-
 }
 
 .col-sm-6 li a {
@@ -1158,7 +1137,6 @@ article .mb-4 a {
     color: #4CAF50;
     font-weight: bold;
     border-color: #4CAF50;
-
 }
 
 .col-lg-8 {
@@ -1168,7 +1146,6 @@ article .mb-4 a {
 .text-muted {
     font-size: 14px;
     font-style: italic;
-
 }
 
 .text-muted .text-primary {
