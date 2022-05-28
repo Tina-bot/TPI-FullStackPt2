@@ -42,13 +42,3 @@ $(document).ready(function () {
         return false;
     });
 });
-
-
-//togle wip
-$(document).ready(function () {
-    $('.menu-icon').on('click', function () {
-        $('.menu-icon').toggleClass('open');
-        $('.menu-bar').toggleClass('open');
-    });
-}
-);
